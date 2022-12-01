@@ -100,22 +100,27 @@ async def help(client, m: Message):
     await m.delete()
     HELP = f"""
 <b>👋 Hallo {m.from_user.mention}!
-🛠 MENU BANTUAN MUSIC PLAYER
-⚡ PERINTAH UNTUK SEMUA ORANG
-• {HNDLR}play [judul lagu | link youtube | balas file audio] - untuk memutar lagu
-• {HNDLR}videoplay [judul video | link youtube | balas file video] - untuk memutar video
-• {HNDLR}playlist untuk melihat daftar putar
-• {HNDLR}ping - untuk cek status
-• {HNDLR}id - untuk melihat id pengguna
-• {HNDLR}video - judul video | link yt untuk mencari video
-• {HNDLR}song - judul lagu | link yt untuk mencari lagu
-• {HNDLR}help - untuk melihat daftar perintah
-• {HNDLR}join- untuk join | ke grup 
-⚡ PERINTAH UNTUK SEMUA ADMIN
-• {HNDLR}resume - untuk melanjutkan pemutaran lagu atau video
-• {HNDLR}pause - untuk untuk menjeda pemutaran lagu atau video
-• {HNDLR}skip - untuk melewati lagu atau video
-• {HNDLR}end - untuk mengakhiri pemutaran</b>
+• MENU COMMAND MUSIC •
+❐ MENU PERINTAH UNTUK SEMUA ORANG
+┣ {HNDLR}play [judul lagu | link youtube | balas file audio] - untuk memutar lagu
+┣ {HNDLR}videoplay [judul video | link youtube | balas file video] - untuk memutar video
+┣ {HNDLR}playlist untuk melihat daftar putar
+┣ {HNDLR}ping - untuk cek status
+┣ {HNDLR}id - untuk melihat id pengguna
+┣ {HNDLR}video - judul video | link yt untuk mencari video
+┣ {HNDLR}song - judul lagu | link yt untuk mencari lagu
+┣ {HNDLR}help - untuk melihat daftar perintah
+┗ {HNDLR}join- untuk join | ke grup 
+
+• ────────────────────────────────────── •
+
+❐ MENU COMMAND UNTUK SEMUA ADMIN
+┣ {HNDLR}resume - untuk melanjutkan pemutaran lagu atau video
+┣ {HNDLR}pause - untuk untuk menjeda pemutaran lagu atau video
+┣ {HNDLR}skip - untuk melewati lagu atau video
+┗ {HNDLR}end - untuk mengakhiri pemutaran</b>
+
+➠ Join @xyz4el dan @reyn0pe Untuk Support Saya, Terima Kasih Yang Udah Join.
 """
     await m.reply(HELP)
 
@@ -127,6 +132,6 @@ async def repo(client, m: Message):
 <b>👋 Hallo {m.from_user.mention}!
 🗃️ Music Dan Video Player UserBot
 🔰 Telegram UserBot Untuk Memutar Lagu Dan Video Di Obrolan Suara Telegram.
-👩‍💻 Maintaned By 
-• [Rey](https://t.me/xyreynld)
+👩‍💻 Owner
+• [Rey](https://t.me/xyreynld) & [L](https://t.me/yaelxz)
 """
