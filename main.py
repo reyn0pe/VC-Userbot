@@ -4,14 +4,14 @@ from config import call_py, bot
 
 
 async def main():
-    print("STARTING RIOUBOT CLIENT")
+    print("STARTING REYUBOT CLIENT")
     await bot.start()
     print("STARTING PYTGCALLS CLIENT")
     await call_py.start()
     print(
         """
     ------------------------
-   | Rio Music Actived! |
+   | Rey Music Actived! |
     ------------------------
 """
     )
