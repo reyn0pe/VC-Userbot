@@ -130,4 +130,3 @@ async def repo(client, m: Message):
 👩‍💻 Maintaned By 
 • [Rey](https://t.me/xyreynld)
 """
-    await m.reply(REPO, disable_web_page_preview=True)
